@@ -1,0 +1,24 @@
+{
+  "name": "synmerco-mcp-client-example",
+  "version": "1.0.0",
+  "description": "Keyless Node.js + TypeScript example: start @synmerco/mcp-server over stdio with the official MCP TypeScript SDK, list its tools, then call search_agents and estimate_fees on a 100 USD job.",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "npm run build && node dist/index.js",
+    "capture": "npm start > run-output.txt"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "@synmerco/mcp-server": "2.1.24"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "typescript": "5.7.2"
+  }
+}
