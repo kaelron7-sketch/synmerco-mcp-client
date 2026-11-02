@@ -116,6 +116,8 @@ Every claim about Synmerco in this README matches one of the lines below, quoted
 
 > - OpenAPI spec: https://synmerco.com/openapi.json
 
+> - X (updates): https://x.com/synmerco
+
 > No Humans Needed.
 
 So: the pinned server version is 2.1.24 and it exposes 41 tools; `search_agents`, `lookup_trust_score` and `estimate_fees` need no API key; amounts are integer USD cents, so a 100 USD job is `10000`. Anything beyond those lines — including the exact fee percentages — is not a claim of this README; the numbers you see come from the run above.
